@@ -3,178 +3,176 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LabelSip | Custom Water. Branded Right.</title>
+    <title>WakeForge — Smart Morning Discipline System</title>
     <meta
       name="description"
-      content="LabelSip creates premium custom branded water bottles for birthdays, weddings, corporate events, and special occasions."
+      content="WakeForge concept UI: premium dark-mode mobile app mockup for disciplined wake routines with adaptive alarms, missions, and progress tracking."
     />
-    <meta name="theme-color" content="#0A2540" />
+    <meta name="theme-color" content="#07090f" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="logo" href="#home" aria-label="LabelSip home">
-          <img class="logo-image" src="public/logo.png" alt="LabelSip" />
-          <span class="logo-copy">
-            <strong>LabelSip</strong>
-            <small>Custom Water. Branded Right.</small>
-          </span>
-        </a>
-        <div class="header-actions">
-          <a class="btn btn-primary" href="https://forms.gle/kGXb64gngrH1XbnSA" target="_blank" rel="noopener noreferrer"
-            >Send Inquiry</a
-          >
-          <a class="btn btn-secondary" href="https://wa.me/918571040209" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        </div>
-      </div>
-    </header>
+    <main class="presentation">
+      <section class="hero-copy">
+        <p class="eyebrow">WakeForge UI Concept</p>
+        <h1>Discipline, rendered as a premium morning operating system.</h1>
+        <p>
+          High-end mobile interface study with deep blacks, electric orange accents, soft blue atmospheric glow, and
+          focused glassmorphism surfaces.
+        </p>
+      </section>
 
-    <main id="home">
-      <section class="section hero">
-        <div class="container hero-grid">
-          <div class="hero-content">
-            <p class="eyebrow">Premium Custom Branded Water</p>
-            <h1>Make Every Bottle Match Your Event</h1>
-            <p class="hero-subtext">
-              LabelSip transforms simple water bottles into premium branded touchpoints for birthdays, weddings,
-              corporate meets, and large events.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="https://forms.gle/kGXb64gngrH1XbnSA" target="_blank" rel="noopener noreferrer"
-                >Send Inquiry</a
-              >
-              <a class="btn btn-secondary" href="https://wa.me/918571040209" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <section class="screens-board" aria-label="WakeForge multi-screen Behance-style mobile mockup">
+        <article class="phone home-screen">
+          <header class="phone-top">
+            <span>Wake Dashboard</span>
+            <span>06:18</span>
+          </header>
+          <p class="chip">Adaptive Alarm Mode: ON</p>
+          <div class="time-display">
+            <small>NEXT ALARM</small>
+            <h2>06:30</h2>
+            <p>Wake readiness: <strong>82%</strong></p>
+          </div>
+          <div class="sleep-cycle" aria-label="Sleep cycle indicator graph">
+            <span class="cycle-dot"></span>
+            <svg viewBox="0 0 280 80" preserveAspectRatio="none">
+              <path d="M0 54 C 35 18, 60 18, 90 53 S 150 86, 180 47 S 240 12, 280 50" />
+            </svg>
+          </div>
+          <div class="toggle-group" role="group" aria-label="Alarm intensity selection">
+            <button>Gentle</button>
+            <button class="active">Balanced</button>
+            <button>Aggressive</button>
+          </div>
+          <p class="quote">“You don’t negotiate with your goals.”</p>
+        </article>
+
+        <article class="phone setup-screen">
+          <header class="phone-top">
+            <span>Alarm Setup</span>
+            <span>Edit</span>
+          </header>
+          <div class="wheel-picker" aria-label="Time picker wheel">
+            <span>05</span>
+            <strong>06</strong>
+            <span>07</span>
+            <em>:</em>
+            <span>00</span>
+            <strong>30</strong>
+            <span>45</span>
+          </div>
+          <div class="window-slider">
+            <label>Smart wake window</label>
+            <div class="slider-track">
+              <span></span>
+            </div>
+            <small>6:00 AM — 6:30 AM</small>
+          </div>
+          <div class="mode-list">
+            <h3>Mode selector</h3>
+            <p class="selected">Gentle Wake <small>light + sound fade-in</small></p>
+            <p>Smart Wake <small>AI-based cycle timing</small></p>
+            <p>No Escape Mode <small>mission required</small></p>
+          </div>
+          <div class="mission-block">
+            <h3>Mission types</h3>
+            <ul>
+              <li>Math challenge</li>
+              <li>Photo verification</li>
+              <li>QR / Location scan</li>
+            </ul>
+            <label>Difficulty</label>
+            <div class="difficulty"><span></span></div>
+          </div>
+        </article>
+
+        <article class="phone journey-screen">
+          <header class="phone-top">
+            <span>Wake Journey</span>
+            <span>Active</span>
+          </header>
+          <div class="journey-glow" aria-hidden="true"></div>
+          <p class="alarm-call">Get up. Momentum starts now.</p>
+          <div class="escalation">
+            <label>Escalation</label>
+            <div><span></span></div>
+          </div>
+          <div class="disabled-buttons">
+            <button disabled>Snooze</button>
+            <button disabled>Dismiss</button>
+          </div>
+          <small class="hint">Buttons unlock after mission complete.</small>
+          <a class="override" href="#">Emergency override</a>
+        </article>
+
+        <article class="phone tracker-screen">
+          <header class="phone-top">
+            <span>Progress Tracker</span>
+            <span>Week 17</span>
+          </header>
+          <div class="streak">
+            <h3>12 day streak</h3>
+            <p>Weekly wake consistency</p>
+          </div>
+          <div class="bar-chart" aria-label="Weekly wake consistency bars">
+            <span style="--h: 58%"></span>
+            <span style="--h: 86%"></span>
+            <span style="--h: 80%"></span>
+            <span style="--h: 91%"></span>
+            <span style="--h: 73%"></span>
+            <span style="--h: 96%"></span>
+            <span style="--h: 88%"></span>
+          </div>
+          <div class="metrics">
+            <p><span>Avg wake delay</span><strong>+4m</strong></p>
+            <p><span>Snooze count</span><strong>1.2 / day</strong></p>
+          </div>
+          <div class="badges">
+            <span>Precision Week</span>
+            <span>Zero Snooze Day</span>
+            <span>12-Day Forge</span>
+          </div>
+        </article>
+
+        <article class="phone settings-screen">
+          <header class="phone-top">
+            <span>Personalization</span>
+            <span>Profile</span>
+          </header>
+          <div class="setting-card">
+            <label>Chronotype</label>
+            <div class="pill-row">
+              <button>Night Owl</button>
+              <button class="active">Early Bird</button>
             </div>
           </div>
-
-          <div class="hero-media" aria-label="LabelSip product bottle images">
-            <img src="public/bottle.png" alt="LabelSip custom bottle sample" class="hero-bottle hero-bottle-left" />
-            <img src="public/bottle.png" alt="LabelSip custom bottle sample" class="hero-bottle hero-bottle-center" />
-            <img src="public/bottle.png" alt="LabelSip custom bottle sample" class="hero-bottle hero-bottle-right" />
+          <div class="setting-card">
+            <label>Voice assistant tone</label>
+            <div class="pill-row triple">
+              <button>Calm</button>
+              <button>Strict</button>
+              <button class="active">Coach</button>
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section class="section" id="about">
-        <div class="container about-grid">
-          <div>
-            <h2>Turn Simple Water Into Your Brand Identity</h2>
-            <p>
-              One custom bottle instantly upgrades the experience. From color tone and typography to logo placement,
-              each LabelSip bottle is designed to align with your event look.
-            </p>
-            <p>
-              The result is a premium, cohesive presentation that guests notice and remember—while keeping ordering
-              and communication simple through inquiry form or WhatsApp.
-            </p>
+          <div class="setting-card">
+            <label>Alarm escalation speed</label>
+            <div class="slider-track subtle"><span></span></div>
           </div>
-          <div class="about-visual" role="img" aria-label="Premium branded water bottle theme visual"></div>
-        </div>
-      </section>
-
-      <section class="section occasions" id="occasions">
-        <div class="container">
-          <h2>Perfect for Every Occasion</h2>
-          <div class="occasion-tags" aria-label="Occasions">
-            <span>Birthday</span>
-            <span>Marriage</span>
-            <span>Corporate</span>
-            <span>Events</span>
+          <div class="setting-card toggles">
+            <p>Backup alarm systems</p>
+            <button class="toggle on">Cloud Sync</button>
+            <button class="toggle">SMS Failover</button>
+            <button class="toggle on">Secondary Device</button>
           </div>
-        </div>
-      </section>
-
-      <section class="section" id="how-it-works">
-        <div class="container">
-          <h2>How It Works</h2>
-          <div class="steps-grid">
-            <article class="step">
-              <h3>1. Share Requirement</h3>
-              <p>Tell us event type, quantity, and delivery timeline through Google Form or WhatsApp.</p>
-            </article>
-            <article class="step">
-              <h3>2. Approve Design</h3>
-              <p>We align label style with your theme and finalize the look before production starts.</p>
-            </article>
-            <article class="step">
-              <h3>3. Print & Prepare</h3>
-              <p>Bottles are printed and finished with quality checks for consistent premium output.</p>
-            </article>
-            <article class="step">
-              <h3>4. Event Ready Delivery</h3>
-              <p>Your order arrives on schedule, fully branded and ready to serve your guests.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section features" id="features">
-        <div class="container">
-          <h2>What You Get</h2>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <h3>Premium Label Finish</h3>
-              <p>Crisp, color-accurate labels with clean alignment and durable output.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Event-Specific Branding</h3>
-              <p>Design direction matched to birthdays, weddings, business branding, and more.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Fast Coordination</h3>
-              <p>Quick communication and confirmation through your preferred channel.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section cta" id="contact">
-        <div class="container cta-panel">
-          <h2>Ready to Get Started?</h2>
-          <p>Share your requirement now and get custom branded bottles tailored to your event.</p>
-          <div class="cta-actions">
-            <a class="btn btn-primary" href="https://forms.gle/kGXb64gngrH1XbnSA" target="_blank" rel="noopener noreferrer"
-              >Send Inquiry</a
-            >
-            <a class="btn btn-secondary" href="https://wa.me/918571040209" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a class="btn btn-outline" href="https://maps.app.goo.gl/VtDdZtojuY3nVH937" target="_blank" rel="noopener noreferrer"
-              >View on Google Maps</a
-            >
-          </div>
-          <p class="hours">Monday – Sunday: 10:30 AM – 8:30 PM</p>
-        </div>
+        </article>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <a class="logo" href="#home" aria-label="LabelSip home">
-          <img class="logo-image" src="public/logo.png" alt="LabelSip" />
-          <span class="logo-copy">
-            <strong>LabelSip</strong>
-            <small>Custom Water. Branded Right.</small>
-          </span>
-        </a>
-
-        <p class="copyright">© 2026 LabelSip. Custom Water. Branded Right.</p>
-
-        <nav class="footer-links" aria-label="Footer links">
-          <a href="#home">Home</a>
-          <a href="https://wa.me/918571040209" target="_blank" rel="noopener noreferrer">Contact</a>
-        </nav>
-      </div>
-    </footer>
-
-    <a class="floating-whatsapp" href="https://wa.me/918571040209" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat">
-      <span aria-hidden="true">💬</span>
-      <span>WhatsApp</span>
-    </a>
   </body>
 </html>

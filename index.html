@@ -1,178 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WakeForge — Smart Morning Discipline System</title>
-    <meta
-      name="description"
-      content="WakeForge concept UI: premium dark-mode mobile app mockup for disciplined wake routines with adaptive alarms, missions, and progress tracking."
-    />
-    <meta name="theme-color" content="#07090f" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="presentation">
-      <section class="hero-copy">
-        <p class="eyebrow">WakeForge UI Concept</p>
-        <h1>Discipline, rendered as a premium morning operating system.</h1>
-        <p>
-          High-end mobile interface study with deep blacks, electric orange accents, soft blue atmospheric glow, and
-          focused glassmorphism surfaces.
-        </p>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ojas Taxak — Multimedia student, graphic designer, visual storyteller, and creative designer portfolio." />
+  <meta name="theme-color" content="#FFFFFF" />
+  <title>Ojas Taxak | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__mark">OT</div>
+  </div>
 
-      <section class="screens-board" aria-label="WakeForge multi-screen Behance-style mobile mockup">
-        <article class="phone home-screen">
-          <header class="phone-top">
-            <span>Wake Dashboard</span>
-            <span>06:18</span>
-          </header>
-          <p class="chip">Adaptive Alarm Mode: ON</p>
-          <div class="time-display">
-            <small>NEXT ALARM</small>
-            <h2>06:30</h2>
-            <p>Wake readiness: <strong>82%</strong></p>
-          </div>
-          <div class="sleep-cycle" aria-label="Sleep cycle indicator graph">
-            <span class="cycle-dot"></span>
-            <svg viewBox="0 0 280 80" preserveAspectRatio="none">
-              <path d="M0 54 C 35 18, 60 18, 90 53 S 150 86, 180 47 S 240 12, 280 50" />
-            </svg>
-          </div>
-          <div class="toggle-group" role="group" aria-label="Alarm intensity selection">
-            <button>Gentle</button>
-            <button class="active">Balanced</button>
-            <button>Aggressive</button>
-          </div>
-          <p class="quote">“You don’t negotiate with your goals.”</p>
-        </article>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-        <article class="phone setup-screen">
-          <header class="phone-top">
-            <span>Alarm Setup</span>
-            <span>Edit</span>
-          </header>
-          <div class="wheel-picker" aria-label="Time picker wheel">
-            <span>05</span>
-            <strong>06</strong>
-            <span>07</span>
-            <em>:</em>
-            <span>00</span>
-            <strong>30</strong>
-            <span>45</span>
-          </div>
-          <div class="window-slider">
-            <label>Smart wake window</label>
-            <div class="slider-track">
-              <span></span>
-            </div>
-            <small>6:00 AM — 6:30 AM</small>
-          </div>
-          <div class="mode-list">
-            <h3>Mode selector</h3>
-            <p class="selected">Gentle Wake <small>light + sound fade-in</small></p>
-            <p>Smart Wake <small>AI-based cycle timing</small></p>
-            <p>No Escape Mode <small>mission required</small></p>
-          </div>
-          <div class="mission-block">
-            <h3>Mission types</h3>
-            <ul>
-              <li>Math challenge</li>
-              <li>Photo verification</li>
-              <li>QR / Location scan</li>
-            </ul>
-            <label>Difficulty</label>
-            <div class="difficulty"><span></span></div>
-          </div>
-        </article>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Ojas Taxak home">OT</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--small" href="#contact">Resume</a>
+      </div>
+    </nav>
+  </header>
 
-        <article class="phone journey-screen">
-          <header class="phone-top">
-            <span>Wake Journey</span>
-            <span>Active</span>
-          </header>
-          <div class="journey-glow" aria-hidden="true"></div>
-          <p class="alarm-call">Get up. Momentum starts now.</p>
-          <div class="escalation">
-            <label>Escalation</label>
-            <div><span></span></div>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content reveal-up">
+          <p class="eyebrow">Multimedia Student | Graphic Designer | Visual Storyteller | Creative Designer</p>
+          <h1>Hi, I'm Ojas Taxak.</h1>
+          <p class="hero__lead">I design experiences that are clean, modern, and meaningful.</p>
+          <p class="hero__text">I'm a Multimedia student with a passion for graphic design, branding, digital media, and visual storytelling. I enjoy transforming ideas into visually engaging designs that communicate effectively and leave a lasting impression.</p>
+          <p class="hero__role"><span class="typing" data-typing="Currently expanding expertise in graphic design, UI design, branding, and creative technologies while building a strong portfolio of projects that reflect both creativity and functionality."></span></p>
+          <div class="hero__actions">
+            <a class="btn btn--primary magnetic" href="#projects">Explore My Work</a>
+            <a class="btn btn--ghost magnetic" href="#about">About Me</a>
+            <a class="btn btn--ghost magnetic" href="#contact">Contact Me</a>
+            <a class="btn btn--ghost magnetic" href="#contact">Download Resume</a>
           </div>
-          <div class="disabled-buttons">
-            <button disabled>Snooze</button>
-            <button disabled>Dismiss</button>
+        </div>
+        <div class="hero__visual reveal-left" aria-label="Abstract portfolio visual">
+          <div class="hero-card hero-card--main">
+            <span class="hero-card__label">Available for creative opportunities</span>
+            <div class="hero-card__title">Premium Portfolio</div>
+            <p>Designed to feel elegant, minimal, and recruiter-ready.</p>
           </div>
-          <small class="hint">Buttons unlock after mission complete.</small>
-          <a class="override" href="#">Emergency override</a>
-        </article>
+          <div class="float float--one"></div>
+          <div class="float float--two"></div>
+          <div class="float float--three"></div>
+          <div class="scroll-indicator"><span></span></div>
+        </div>
+      </div>
+    </section>
 
-        <article class="phone tracker-screen">
-          <header class="phone-top">
-            <span>Progress Tracker</span>
-            <span>Week 17</span>
-          </header>
-          <div class="streak">
-            <h3>12 day streak</h3>
-            <p>Weekly wake consistency</p>
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">About Me</p><h2>Design with purpose, not decoration.</h2></div>
+        <div class="two-col">
+          <div class="card reveal-up">
+            <p>Hello! I'm Ojas Taxak, currently pursuing a Bachelor of Science in Multimedia at Kurukshetra University.</p>
+            <p>My interest in design began with creating presentations and social media graphics using Canva. Over time, that curiosity developed into a genuine passion for graphic design, branding, digital communication, and multimedia.</p>
+            <p>I believe design is much more than making things look attractive—it is about solving problems, telling stories, and creating meaningful experiences.</p>
           </div>
-          <div class="bar-chart" aria-label="Weekly wake consistency bars">
-            <span style="--h: 58%"></span>
-            <span style="--h: 86%"></span>
-            <span style="--h: 80%"></span>
-            <span style="--h: 91%"></span>
-            <span style="--h: 73%"></span>
-            <span style="--h: 96%"></span>
-            <span style="--h: 88%"></span>
+          <div class="card card--stats reveal-up">
+            <div><strong>Location</strong><span>Kurukshetra, Haryana, India</span></div>
+            <div><strong>Email</strong><span>taxakojas@gmail.com</span></div>
+            <div><strong>Focus</strong><span>Multimedia, branding, UI, and visual storytelling</span></div>
+            <div><strong>Goal</strong><span>Build a multidisciplinary creative career</span></div>
           </div>
-          <div class="metrics">
-            <p><span>Avg wake delay</span><strong>+4m</strong></p>
-            <p><span>Snooze count</span><strong>1.2 / day</strong></p>
-          </div>
-          <div class="badges">
-            <span>Precision Week</span>
-            <span>Zero Snooze Day</span>
-            <span>12-Day Forge</span>
-          </div>
-        </article>
+        </div>
+      </div>
+    </section>
 
-        <article class="phone settings-screen">
-          <header class="phone-top">
-            <span>Personalization</span>
-            <span>Profile</span>
-          </header>
-          <div class="setting-card">
-            <label>Chronotype</label>
-            <div class="pill-row">
-              <button>Night Owl</button>
-              <button class="active">Early Bird</button>
-            </div>
-          </div>
-          <div class="setting-card">
-            <label>Voice assistant tone</label>
-            <div class="pill-row triple">
-              <button>Calm</button>
-              <button>Strict</button>
-              <button class="active">Coach</button>
-            </div>
-          </div>
-          <div class="setting-card">
-            <label>Alarm escalation speed</label>
-            <div class="slider-track subtle"><span></span></div>
-          </div>
-          <div class="setting-card toggles">
-            <p>Backup alarm systems</p>
-            <button class="toggle on">Cloud Sync</button>
-            <button class="toggle">SMS Failover</button>
-            <button class="toggle on">Secondary Device</button>
-          </div>
-        </article>
-      </section>
-    </main>
-  </body>
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Journey</p><h2>Learning never stops.</h2></div>
+        <div class="timeline">
+          <article class="timeline__item reveal-up"><h3>Curiosity</h3><p>My creative journey started with a simple curiosity about how professional designs are created.</p></article>
+          <article class="timeline__item reveal-up"><h3>Exploration</h3><p>As I explored different design styles and creative tools, I discovered the importance of typography, spacing, colors, composition, and storytelling.</p></article>
+          <article class="timeline__item reveal-up"><h3>Growth</h3><p>Every project I create helps me improve my skills and pushes me to learn something new.</p></article>
+          <article class="timeline__item reveal-up"><h3>Direction</h3><p>I continue to invest time in learning professional software, improving my creativity, and building projects that represent my growth as a designer.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Education</p><h2>Formal learning and practical creativity.</h2></div>
+        <div class="education-grid">
+          <article class="glass-card reveal-up"><span class="icon">◌</span><h3>Bachelor of Science (B.Sc.) in Multimedia</h3><p>Kurukshetra University</p><p>Currently pursuing my undergraduate degree in Multimedia, where I am developing practical knowledge in graphic design, animation, digital media, photography, video production, web technologies, and visual communication.</p></article>
+          <article class="glass-card reveal-up"><span class="icon">◌</span><h3>School Education</h3><p>Aggarsain Public School</p><p>Completed my primary, middle, and senior secondary education at Aggarsain Public School, where I studied from Class II through Class XII. During these years, I developed a strong academic foundation while discovering my passion for creativity, technology, and design. My Commerce education also strengthened my analytical thinking, communication, and problem-solving abilities.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Skills</p><h2>Creative, software, and technical.</h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal-up"><h3>Creative Skills</h3><ul><li>Graphic Design</li><li>Brand Identity</li><li>Typography</li><li>Color Theory</li><li>Layout Design</li><li>Visual Communication</li><li>Creative Thinking</li><li>Presentation Design</li><li>Content Organization</li><li>Brand Storytelling</li></ul></article>
+          <article class="skill-card reveal-up"><h3>Software Skills</h3><ul><li>Canva</li><li>Microsoft PowerPoint</li><li>Google Slides</li><li>Adobe Illustrator (Learning)</li><li>Adobe Photoshop (Learning)</li><li>Figma (Learning)</li><li>Adobe Premiere Pro (Learning)</li><li>Adobe After Effects (Learning)</li></ul></article>
+          <article class="skill-card reveal-up"><h3>Technical Skills</h3><ul><li>HTML (Learning)</li><li>CSS (Learning)</li><li>JavaScript (Learning)</li><li>Basic UI/UX Design</li><li>Responsive Design Concepts</li><li>Creative Research</li><li>Digital Content Creation</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="learning">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Current Learning</p><h2>Building the next layer of skill.</h2></div>
+        <div class="chips-grid">
+          <span class="chip-card reveal-up">Adobe Illustrator</span>
+          <span class="chip-card reveal-up">Adobe Photoshop</span>
+          <span class="chip-card reveal-up">Figma</span>
+          <span class="chip-card reveal-up">Premiere Pro</span>
+          <span class="chip-card reveal-up">After Effects</span>
+          <span class="chip-card reveal-up">HTML</span>
+          <span class="chip-card reveal-up">CSS</span>
+          <span class="chip-card reveal-up">JavaScript</span>
+          <span class="chip-card reveal-up">UI/UX Design</span>
+          <span class="chip-card reveal-up">Motion Graphics</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Featured Projects</p><h2>Practice work with a polished visual standard.</h2></div>
+        <div class="projects-grid">
+          <article class="project-card reveal-up"><div class="project-card__thumb placeholder"></div><span class="tag">Presentation Design</span><h3>Presentation Design Collection</h3><p>Designed clean, modern, and professional presentations focusing on readability, visual hierarchy, and storytelling.</p></article>
+          <article class="project-card reveal-up"><div class="project-card__thumb placeholder"></div><span class="tag">Branding</span><h3>Branding Concepts</h3><p>Created branding concepts including logos, typography systems, color palettes, and identity guidelines for practice projects.</p></article>
+          <article class="project-card reveal-up"><div class="project-card__thumb placeholder"></div><span class="tag">Social Media</span><h3>Social Media Graphics</h3><p>Designed promotional posts, Instagram carousels, banners, thumbnails, and digital marketing creatives using modern design principles.</p></article>
+          <article class="project-card reveal-up"><div class="project-card__thumb placeholder"></div><span class="tag">Posters</span><h3>Poster Collection</h3><p>Created educational, promotional, and creative posters focusing on typography, spacing, and visual balance.</p></article>
+          <article class="project-card reveal-up"><div class="project-card__thumb placeholder"></div><span class="tag">Web Design</span><h3>Portfolio Website</h3><p>Currently developing my own fully responsive animated portfolio website to showcase my work, projects, and creative journey.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="philosophy">
+      <div class="container narrow">
+        <div class="quote-card reveal-up">
+          <p class="quote-mark">“</p>
+          <h2>Every font should improve readability. Every color should have a purpose. Every animation should guide attention.</h2>
+          <p>I believe every great design begins with understanding people. Good design is not about decoration. It is about communication. I aim to create designs that are elegant, functional, and memorable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="strengths">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Strengths</p><h2>Traits that support consistent creative work.</h2></div>
+        <div class="strength-grid">
+          <span class="strength-card reveal-up">Creative Problem Solving</span>
+          <span class="strength-card reveal-up">Attention to Detail</span>
+          <span class="strength-card reveal-up">Fast Learner</span>
+          <span class="strength-card reveal-up">Adaptability</span>
+          <span class="strength-card reveal-up">Consistency</span>
+          <span class="strength-card reveal-up">Communication Skills</span>
+          <span class="strength-card reveal-up">Patience</span>
+          <span class="strength-card reveal-up">Curiosity</span>
+          <span class="strength-card reveal-up">Time Management</span>
+          <span class="strength-card reveal-up">Positive Attitude</span>
+          <span class="strength-card reveal-up">Continuous Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="objective">
+      <div class="container narrow center">
+        <div class="section-head reveal-up"><p class="eyebrow">Career Objective</p><h2>Build a successful career as a Multimedia Designer, Graphic Designer, and Creative Professional.</h2></div>
+        <p class="reveal-up">I aspire to work with startups, creative agencies, and global organizations where I can contribute meaningful design solutions while continuously improving my technical and creative expertise. I also aim to explore freelancing and entrepreneurship in the creative industry by developing impactful digital products and brand experiences.</p>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Interests</p><h2>What keeps the work fresh.</h2></div>
+        <div class="chips-grid chips-grid--compact">
+          <span class="chip-card reveal-up">Graphic Design</span><span class="chip-card reveal-up">Branding</span><span class="chip-card reveal-up">UI Design</span><span class="chip-card reveal-up">Photography</span><span class="chip-card reveal-up">Technology</span><span class="chip-card reveal-up">Creative Coding</span><span class="chip-card reveal-up">Artificial Intelligence</span><span class="chip-card reveal-up">Digital Marketing</span><span class="chip-card reveal-up">Books</span><span class="chip-card reveal-up">Visual Storytelling</span><span class="chip-card reveal-up">Learning New Skills</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="languages">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Languages</p><h2>Communication across English and Hindi.</h2></div>
+        <div class="languages-grid">
+          <article class="language-card reveal-up"><h3>English</h3></article>
+          <article class="language-card reveal-up"><h3>Hindi</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal-up"><p class="eyebrow">Contact</p><h2>Let's build something creative together.</h2></div>
+        <div class="contact-grid">
+          <article class="contact-card reveal-up"><strong>Email</strong><a href="mailto:taxakojas@gmail.com">taxakojas@gmail.com</a></article>
+          <article class="contact-card reveal-up"><strong>Location</strong><span>Kurukshetra, Haryana, India</span></article>
+          <article class="contact-card reveal-up"><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/ojastaxax-4b3449413" target="_blank" rel="noopener">linkedin.com/in/ojastaxax-4b3449413</a></article>
+          <article class="contact-card reveal-up"><strong>Availability</strong><span>Open to internships, freelance projects, collaborations, and creative opportunities.</span></article>
+        </div>
+        <div class="contact-cta reveal-up"><a class="btn btn--primary magnetic" href="mailto:taxakojas@gmail.com">Send Email</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Designed &amp; Developed by Ojas Taxak</p>
+      <p>© 2026 Ojas Taxak. All Rights Reserved.</p>
+      <p>Creating meaningful digital experiences through creativity, simplicity, and continuous learning.</p>
+      <a class="to-top" href="#home" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+</body>
 </html>
